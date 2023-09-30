@@ -52,10 +52,9 @@ public class StudentRepository {
     }
 
     public void deleteTeacherByName(String teacher) {
-        String teacTo_student = null;
-        teacTo_student = teach_stuDb.get(teacher);
+        String teacherTo_student = teach_stuDb.get(teacher);
         teach_stuDb.remove(teacher);
-        studentDb.remove(teacTo_student);
+        studentDb.remove(teacherTo_student);
         teacherDb.remove(teacher);
 //        String tea_student = null;
 //        for (String key: teach_stuDb.keySet()) {
