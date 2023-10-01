@@ -56,23 +56,6 @@ public class StudentRepository {
         teach_stuDb.remove(teacher);
         studentDb.remove(teacherTo_student);
         teacherDb.remove(teacher);
-//        String tea_student = null;
-//        for (String key: teach_stuDb.keySet()) {
-//            if(key.equals(teacher)) {
-//                tea_student = teach_stuDb.get(key);
-//                teach_stuDb.remove(key);
-//            }
-//        }
-//        for (String key: studentDb.keySet()) {
-//            if(key.equals(tea_student)) {
-//                studentDb.remove(key);
-//            }
-//        }
-//        for (String key: teacherDb.keySet()) {
-//            if (key.equals(teacher)) {
-//                teacherDb.remove(key);
-//            }
-//        }
     }
 
     public void deleteAllTeachers() {
