@@ -7,8 +7,11 @@ import java.util.*;
 @Repository
 public class StudentRepository {
 
+//    student DB
     private final Map<String, Student> studentDb = new HashMap<>();
+//    teacher DB
     private final Map<String, Teacher> teacherDb = new HashMap<>();
+//    combine DB
     private final Map<String, String> teach_stuDb = new HashMap<>();
 
     public void addStudent(Student student) {
